@@ -18,8 +18,8 @@ __The idea is to know on which queries you dropped between last month and the pe
 
 Please note that the GSC Query report is not 100% accurate (see https://twitter.com/Errioxa/status/1258466210850758658) which explains why you may not see the same numbers in the top pages and the top query per page. This is a known limitation but this notebook assumes that even if the data we get at keyword-level are not 100% accurate, the relative importance is the same. 
 
-Moreover, the tool can't make the difference between __seasonality trend__ and __decay__. You will have to filter false positive with your business knowledge :) 
+Moreover, the tool can't make the difference between __seasonality trend__ and __decay__. You will have to filter false positives with your business knowledge :) 
 
 # Output 
 
-The notebook will output a table with the data 
+The notebook will output a table where you will be able to get the difference in clicks between the peak phase and the current period for any given keywords and content. 
